@@ -1,0 +1,14 @@
+/Users/vladdydaddy/College/OOP/ConsoleApp1.cs/bin/Debug/net9.0/ConsoleApp1.cs
+/Users/vladdydaddy/College/OOP/ConsoleApp1.cs/bin/Debug/net9.0/ConsoleApp1.cs.deps.json
+/Users/vladdydaddy/College/OOP/ConsoleApp1.cs/bin/Debug/net9.0/ConsoleApp1.cs.runtimeconfig.json
+/Users/vladdydaddy/College/OOP/ConsoleApp1.cs/bin/Debug/net9.0/ConsoleApp1.cs.dll
+/Users/vladdydaddy/College/OOP/ConsoleApp1.cs/bin/Debug/net9.0/ConsoleApp1.cs.pdb
+/Users/vladdydaddy/College/OOP/ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladdydaddy/College/OOP/ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.AssemblyInfoInputs.cache
+/Users/vladdydaddy/College/OOP/ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.AssemblyInfo.cs
+/Users/vladdydaddy/College/OOP/ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.csproj.CoreCompileInputs.cache
+/Users/vladdydaddy/College/OOP/ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.dll
+/Users/vladdydaddy/College/OOP/ConsoleApp1.cs/obj/Debug/net9.0/refint/ConsoleApp1.cs.dll
+/Users/vladdydaddy/College/OOP/ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.pdb
+/Users/vladdydaddy/College/OOP/ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.genruntimeconfig.cache
+/Users/vladdydaddy/College/OOP/ConsoleApp1.cs/obj/Debug/net9.0/ref/ConsoleApp1.cs.dll
