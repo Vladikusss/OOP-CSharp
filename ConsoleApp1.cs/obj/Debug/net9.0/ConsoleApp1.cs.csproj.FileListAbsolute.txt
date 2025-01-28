@@ -12,3 +12,4 @@
 /Users/vladdydaddy/College/OOP/ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.pdb
 /Users/vladdydaddy/College/OOP/ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.genruntimeconfig.cache
 /Users/vladdydaddy/College/OOP/ConsoleApp1.cs/obj/Debug/net9.0/ref/ConsoleApp1.cs.dll
+/Users/vladdydaddy/College/OOP/ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.sourcelink.json
