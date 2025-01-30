@@ -8,16 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9eb1668-1f0b-4d69-ac37-ad852ef67b25" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp1.cs/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp1.cs/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp1.cs/bin/Debug/net9.0/ConsoleApp1.cs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp1.cs/bin/Debug/net9.0/ConsoleApp1.cs.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp1.cs/bin/Debug/net9.0/ConsoleApp1.cs.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp1.cs/bin/Debug/net9.0/ConsoleApp1.cs.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp1.cs/obj/Debug/net9.0/ConsoleApp1.cs.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp1.cs/obj/Debug/net9.0/ref/ConsoleApp1.cs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp1.cs/obj/Debug/net9.0/ref/ConsoleApp1.cs.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp1.cs/obj/Debug/net9.0/refint/ConsoleApp1.cs.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp1.cs/obj/Debug/net9.0/refint/ConsoleApp1.cs.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Program.cs/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +75,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1738058754257</updated>
-      <workItem from="1738058756270" duration="10220000" />
+      <workItem from="1738058756270" duration="11697000" />
     </task>
     <servers />
   </component>
