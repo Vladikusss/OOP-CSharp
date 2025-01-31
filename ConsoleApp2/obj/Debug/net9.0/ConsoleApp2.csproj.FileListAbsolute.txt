@@ -1,0 +1,15 @@
+/Users/vladdydaddy/College/OOP/ConsoleApp2/bin/Debug/net9.0/ConsoleApp2
+/Users/vladdydaddy/College/OOP/ConsoleApp2/bin/Debug/net9.0/ConsoleApp2.deps.json
+/Users/vladdydaddy/College/OOP/ConsoleApp2/bin/Debug/net9.0/ConsoleApp2.runtimeconfig.json
+/Users/vladdydaddy/College/OOP/ConsoleApp2/bin/Debug/net9.0/ConsoleApp2.dll
+/Users/vladdydaddy/College/OOP/ConsoleApp2/bin/Debug/net9.0/ConsoleApp2.pdb
+/Users/vladdydaddy/College/OOP/ConsoleApp2/obj/Debug/net9.0/ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladdydaddy/College/OOP/ConsoleApp2/obj/Debug/net9.0/ConsoleApp2.AssemblyInfoInputs.cache
+/Users/vladdydaddy/College/OOP/ConsoleApp2/obj/Debug/net9.0/ConsoleApp2.AssemblyInfo.cs
+/Users/vladdydaddy/College/OOP/ConsoleApp2/obj/Debug/net9.0/ConsoleApp2.csproj.CoreCompileInputs.cache
+/Users/vladdydaddy/College/OOP/ConsoleApp2/obj/Debug/net9.0/ConsoleApp2.sourcelink.json
+/Users/vladdydaddy/College/OOP/ConsoleApp2/obj/Debug/net9.0/ConsoleApp2.dll
+/Users/vladdydaddy/College/OOP/ConsoleApp2/obj/Debug/net9.0/refint/ConsoleApp2.dll
+/Users/vladdydaddy/College/OOP/ConsoleApp2/obj/Debug/net9.0/ConsoleApp2.pdb
+/Users/vladdydaddy/College/OOP/ConsoleApp2/obj/Debug/net9.0/ConsoleApp2.genruntimeconfig.cache
+/Users/vladdydaddy/College/OOP/ConsoleApp2/obj/Debug/net9.0/ref/ConsoleApp2.dll
