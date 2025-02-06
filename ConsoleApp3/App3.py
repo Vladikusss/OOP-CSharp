@@ -5,10 +5,17 @@ import random
 def main():
     """Program to generate and manipulate random numbers"""
 
+    # Generating and printing integers:
     integers = GenerateRandomIntegers()
     PrintRandomIntegers(integers)
+
+    # Calculating and printing total of integers:
     sumOfIntegers = ComputeSum(integers)
     print(f"THe sum of random integers in the list is: {sumOfIntegers}")
+
+    # Generating and Displaying histogram from integers:
+    histogram = ComputeHistogram(integers)
+    DisplayHistogram(histogram)
 
 def GenerateRandomIntegers() -> list:
     """Function to generate 100 numbers"""
@@ -39,6 +46,25 @@ def ComputeSum(nums: list) -> int:
         total += number
 
     return total
+
+
+def ComputeHistogram(nums: list) -> dict:
+    """Function to compute frequency of each number"""
+    frequency = dict()
+
+    for number in nums: # Loop through each number
+        if number in frequency: # Check if number is in dictionary
+            frequency[number] += 1
+        else: # Add number to the dictionary if not present
+            frequency[number] = 1
+
+    return frequency
+
+
+def DisplayHistogram(freq: dict) -> None:
+    """Function to display histogram"""
+    for key, value in freq.items():
+        print(key, ":", value)
 
 if __name__ == "__main__":
     main()

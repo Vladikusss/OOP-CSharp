@@ -7,12 +7,20 @@ namespace ConsoleApp3
     {
         static void Main()
         {
+            // Generating and Printing integers:
             List<int> randomIntegers = GenerateRandomIntegers();
             PrintRandomIntegers(randomIntegers);
+            
+            // Calculating and printing total of integers:
             int sumOfIntegers = ComputeSum(randomIntegers);
             Console.WriteLine($"The sum of random integers in the list is: {sumOfIntegers}");
+            
+            // Generating and Displaying histogram from integers:
+            Dictionary<int, int> histogram = ComputeHistogram(randomIntegers);
+            DisplayHistogram(histogram);
         }
 
+        
         static List<int> GenerateRandomIntegers()
         { // Function to generate 100 numbers
             Console.WriteLine("Started");
@@ -41,6 +49,7 @@ namespace ConsoleApp3
                 }
             }
 
+        
         static int ComputeSum(List<int> nums)
         { // Function to calculate sum of random integers
             int total = 0;
@@ -51,6 +60,35 @@ namespace ConsoleApp3
 
             return total; // Return the sum
         }
-            
+        
+
+        static Dictionary<int, int> ComputeHistogram(List<int> nums)
+        { // Function to compute frequency of each number
+            Dictionary<int, int> frequency = new Dictionary<int, int>();
+            // Dictionary data type from System.Collections.Generic
+
+            foreach (int number in nums) // Loop through each number
+            {
+                if (frequency.ContainsKey(number))
+                { // Check if number is in dictionary
+                    frequency[number] += 1; // Increment frequency of number by 1
+                }
+                else
+                { // If number is not in dictionary -> add it
+                    frequency.Add(number, 1);
+                }
+            }
+
+            return frequency;
+        }
+
+
+        static void DisplayHistogram(Dictionary<int, int> freq)
+        { // Function to display histogram
+            foreach (KeyValuePair<int, int> kvp in freq)
+            { // Loop through each keyValuePair (kvp)
+                Console.WriteLine($"{kvp.Key} : {kvp.Value}");
+            }
+        }
     }
 }
