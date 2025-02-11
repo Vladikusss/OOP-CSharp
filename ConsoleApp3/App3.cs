@@ -10,16 +10,53 @@ namespace ConsoleApp3
             // Generating and Printing integers:
             List<int> randomIntegers = GenerateRandomIntegers();
             PrintRandomIntegers(randomIntegers);
-            
+
             // Calculating and printing total of integers:
             int sumOfIntegers = ComputeSum(randomIntegers);
             Console.WriteLine($"The sum of random integers in the list is: {sumOfIntegers}");
-            
+
             // Generating and Displaying histogram from integers:
             Dictionary<int, int> histogram = ComputeHistogram(randomIntegers);
             DisplayHistogram(histogram);
+
+            // Test the function
+            List<int> arr = new List<int> {5, 3, 8, 4, 2};
+            
+            // Print array of numbers before sorting
+            Console.Write($"Before sorting: ");
+            foreach (int x in arr)
+            {
+                Console.Write($"{x}, ");
+            }
+            
+            // Parse an array through simple sort insertion algorithm
+            InsertionSort(arr);
+            
+            // Print array of numbers after sorting
+            Console.Write($"After sorting: ");
+            foreach (int x in arr)
+            {
+                Console.Write($"{x}, ");
+            }
         }
 
+
+        static void InsertionSort(List<int> numbers)
+        { // Function to sort an array of numbers in ascending order
+            for (int i = 1; i < numbers.Count; i++) 
+            { // Start with 1, increment by 1 while i is below total num of numbers
+                int currentElement = numbers[i]; // Access current element
+                int beforeElement = i - 1; // Access and index of previous element
+                
+                while (beforeElement >= 0 && numbers[beforeElement] > currentElement)
+                { // Loop condition to compare elements of an array
+                    numbers[beforeElement + 1] = numbers[beforeElement]; // Shift bigger number to the rigth
+                    beforeElement--; // Move left to the next element
+                }
+        
+                numbers[beforeElement + 1] = currentElement; // Place the current element in correct position
+            }
+        }
         
         static List<int> GenerateRandomIntegers()
         { // Function to generate 100 numbers

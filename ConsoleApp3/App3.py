@@ -20,10 +20,10 @@ def main():
     # Test the function
     arr = [5, 3, 8, 4, 2, 25, 23, 867, 345, 23423423, 765, 293, 5, 345, 56478, 6, 98765, 645, 13, 68, 23]
     print("Before Sorting:", arr)
-    insertion_sort(arr)
+    InsertionSort(arr)
     print("\nAfter Sorting:", arr)
 
-def insertion_sort(numbers):
+def InsertionSort(numbers):
     """Insertion sort algorithm to sort out array of numbers."""
     for i in range(1, len(numbers)): # start at index 1, as index 0 is assumed to be sorted
         currentElement = i # index from outer loop of current element
