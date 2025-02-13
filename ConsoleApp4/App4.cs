@@ -10,7 +10,8 @@ namespace ConsoleApp4
         private string _surname;
         private string _module;
         private int _grade;
-        public static int NumberOfStudents = 0;
+        public static int NumberOfStudents { get; private set; } = 0;
+    
 
 
         public string Name
@@ -29,6 +30,23 @@ namespace ConsoleApp4
             }
         }
 
+        public string Surname
+        {
+            get { return _surname; }
+            set {
+                if (String.IsNullOrWhiteSpace(value))
+                {
+                    Console.WriteLine("Surname is required");
+                }
+                else
+                {
+                    _surname = value;
+                }
+            }
+        }
+        
+        public string FullName => $"{Name} {Surname}";
+
         public int Grade
         {
             get { return _grade; }
@@ -41,19 +59,27 @@ namespace ConsoleApp4
             }
         }
 
-        /* Declaration above is traditional get method.
-         From c# version 6.0 (2015) the new method was introduced:
-         public string FullName => Name + " " + Surname;
-
-         get {} is preferred when validation is needed before assigning a value - i.e. chains of logic.
-         => expression-bodied for simple expressions to make code more readable.
-        */
+        public string Module
+        {
+            get { return _module; }
+            set
+            {
+                if (String.IsNullOrWhiteSpace(value))
+                {
+                    Console.WriteLine("Module is required");
+                }
+                else
+                {
+                    _module = value;
+                }
+            }
+        }
+        
 
         public Student(string studentName, string studentSurname, string studentModule, int studentGrade)
         {
             Name = studentName;
             Surname = studentSurname;
-            FullName = $"{studentName} {studentSurname}";
             Module = studentModule;
             Grade = studentGrade;
             NumberOfStudents++;
