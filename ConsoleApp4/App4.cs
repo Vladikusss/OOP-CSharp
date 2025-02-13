@@ -61,6 +61,39 @@ namespace ConsoleApp4
             Grade = studentGrade;
             NumberOfStudents++;
         }
+
+        public void DisplayInfo()
+        {
+            Console.WriteLine($"Student Name: {FullName}");
+            Console.WriteLine($"Module: {Module}");
+            Console.WriteLine($"Grade: {Grade}");
+            Console.WriteLine("--------------------------");
+        }
+
+        public void ComputeGradeCategory()
+        {
+            if (Grade >= 0 && Grade < 40)
+            {
+                Console.WriteLine($"You failed with a mark of {Grade}");
+            }
+            else if (Grade >= 40 && Grade < 60)
+            {
+                Console.WriteLine($"You passed with a mark of {Grade}");
+            }
+            else if (Grade >= 60 && Grade < 80)
+            {
+                Console.WriteLine($"You were graded merit with a mark of {Grade}");
+            }
+            else if (Grade >= 80 && Grade <= 100)
+            {
+                Console.WriteLine($"You were graded distinction with a mark of {Grade}");
+            }
+            else
+            {
+                Console.WriteLine($"No valid grade was given to {FullName} at {Module} class");
+            }
+        }
+        
         
     }
 
@@ -96,7 +129,9 @@ namespace ConsoleApp4
             {
                 Console.WriteLine("Please enter a valid input next time!");
             }
-            
+
+            student1.DisplayInfo();
+            student1.ComputeGradeCategory();
         }
         
     }
