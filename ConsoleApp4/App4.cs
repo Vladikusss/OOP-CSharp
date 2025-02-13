@@ -16,64 +16,41 @@ namespace ConsoleApp4
 
         public string Name
         {
-            get { return _name; }
-            set
-            {
-                if (String.IsNullOrWhiteSpace(value))
-                {
-                    Console.WriteLine("Name is required");
-                }
-                else
-                {
-                    _name = value;
-                }
-            }
+            get => _name;
+            set => _name = string.IsNullOrEmpty(value) ? "unknown" : value;
         }
 
         public string Surname
         {
-            get { return _surname; }
-            set {
-                if (String.IsNullOrWhiteSpace(value))
-                {
-                    Console.WriteLine("Surname is required");
-                }
-                else
-                {
-                    _surname = value;
-                }
-            }
+            get => _surname;
+            set => _surname = string.IsNullOrWhiteSpace(value) ? "unknown" : value;
         }
         
         public string FullName => $"{Name} {Surname}";
 
+        public string Module
+        {
+            get => _module;
+            set => _module = String.IsNullOrWhiteSpace(value) ? "unknown" : value;
+        }
+        
         public int Grade
         {
-            get { return _grade; }
+            get => _grade;
             set
             {
                 if (value >= 0 && value <= 100)
                 {
                     _grade = value;
                 }
+                else
+                {
+                    Console.WriteLine("Invalid grade value, defaulting to 0!");
+                    _grade = 0;
+                }
             }
         }
 
-        public string Module
-        {
-            get { return _module; }
-            set
-            {
-                if (String.IsNullOrWhiteSpace(value))
-                {
-                    Console.WriteLine("Module is required");
-                }
-                else
-                {
-                    _module = value;
-                }
-            }
-        }
         
 
         public Student(string studentName, string studentSurname, string studentModule, int studentGrade)
