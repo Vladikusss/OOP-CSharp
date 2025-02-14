@@ -1,0 +1,15 @@
+/Users/vladdydaddy/College/OOP/DiceGame/bin/Debug/net9.0/DiceGame
+/Users/vladdydaddy/College/OOP/DiceGame/bin/Debug/net9.0/DiceGame.deps.json
+/Users/vladdydaddy/College/OOP/DiceGame/bin/Debug/net9.0/DiceGame.runtimeconfig.json
+/Users/vladdydaddy/College/OOP/DiceGame/bin/Debug/net9.0/DiceGame.dll
+/Users/vladdydaddy/College/OOP/DiceGame/bin/Debug/net9.0/DiceGame.pdb
+/Users/vladdydaddy/College/OOP/DiceGame/obj/Debug/net9.0/DiceGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladdydaddy/College/OOP/DiceGame/obj/Debug/net9.0/DiceGame.AssemblyInfoInputs.cache
+/Users/vladdydaddy/College/OOP/DiceGame/obj/Debug/net9.0/DiceGame.AssemblyInfo.cs
+/Users/vladdydaddy/College/OOP/DiceGame/obj/Debug/net9.0/DiceGame.csproj.CoreCompileInputs.cache
+/Users/vladdydaddy/College/OOP/DiceGame/obj/Debug/net9.0/DiceGame.sourcelink.json
+/Users/vladdydaddy/College/OOP/DiceGame/obj/Debug/net9.0/DiceGame.dll
+/Users/vladdydaddy/College/OOP/DiceGame/obj/Debug/net9.0/refint/DiceGame.dll
+/Users/vladdydaddy/College/OOP/DiceGame/obj/Debug/net9.0/DiceGame.pdb
+/Users/vladdydaddy/College/OOP/DiceGame/obj/Debug/net9.0/DiceGame.genruntimeconfig.cache
+/Users/vladdydaddy/College/OOP/DiceGame/obj/Debug/net9.0/ref/DiceGame.dll
