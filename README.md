@@ -14,3 +14,5 @@ Most of my learning is done by the use of ChatGPT.
 🔻 ConsoleApp5 - approximation of time complexity of simple algorithm
 
 🔻 DiceGame - simple dice game against the computer, i.e. who has higher number wins
+
+🔻 FortuneTeller - simple game that output phrases based on random numbers
