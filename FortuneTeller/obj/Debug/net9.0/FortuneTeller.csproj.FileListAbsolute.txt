@@ -1,0 +1,15 @@
+/Users/vladdydaddy/College/OOP/FortuneTeller/bin/Debug/net9.0/FortuneTeller
+/Users/vladdydaddy/College/OOP/FortuneTeller/bin/Debug/net9.0/FortuneTeller.deps.json
+/Users/vladdydaddy/College/OOP/FortuneTeller/bin/Debug/net9.0/FortuneTeller.runtimeconfig.json
+/Users/vladdydaddy/College/OOP/FortuneTeller/bin/Debug/net9.0/FortuneTeller.dll
+/Users/vladdydaddy/College/OOP/FortuneTeller/bin/Debug/net9.0/FortuneTeller.pdb
+/Users/vladdydaddy/College/OOP/FortuneTeller/obj/Debug/net9.0/FortuneTeller.GeneratedMSBuildEditorConfig.editorconfig
+/Users/vladdydaddy/College/OOP/FortuneTeller/obj/Debug/net9.0/FortuneTeller.AssemblyInfoInputs.cache
+/Users/vladdydaddy/College/OOP/FortuneTeller/obj/Debug/net9.0/FortuneTeller.AssemblyInfo.cs
+/Users/vladdydaddy/College/OOP/FortuneTeller/obj/Debug/net9.0/FortuneTeller.csproj.CoreCompileInputs.cache
+/Users/vladdydaddy/College/OOP/FortuneTeller/obj/Debug/net9.0/FortuneTeller.sourcelink.json
+/Users/vladdydaddy/College/OOP/FortuneTeller/obj/Debug/net9.0/FortuneTeller.dll
+/Users/vladdydaddy/College/OOP/FortuneTeller/obj/Debug/net9.0/refint/FortuneTeller.dll
+/Users/vladdydaddy/College/OOP/FortuneTeller/obj/Debug/net9.0/FortuneTeller.pdb
+/Users/vladdydaddy/College/OOP/FortuneTeller/obj/Debug/net9.0/FortuneTeller.genruntimeconfig.cache
+/Users/vladdydaddy/College/OOP/FortuneTeller/obj/Debug/net9.0/ref/FortuneTeller.dll
