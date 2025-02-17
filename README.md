@@ -16,3 +16,5 @@ Most of my learning is done by the use of ChatGPT.
 🔻 DiceGame - simple dice game against the computer, i.e. who has higher number wins
 
 🔻 FortuneTeller - simple game that output phrases based on random numbers
+
+🔺 Calendar aka, Calendairum - program to output date of the week/month and if it has any events without the use of libraries
