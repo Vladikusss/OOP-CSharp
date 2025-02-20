@@ -1,6 +1,6 @@
-﻿/*
+/*
  * Created by Vladdy | 17.02.2025
- * Last Updated: 17.02.2025
+ * Last Updated: 20.02.2025
  * Program: Calendar - outputs the day of the week and the event on that date without using external libraries
  * Version: 1.0
  * Status: In Progress
@@ -8,6 +8,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Net.Http.Headers;
 
 namespace Calendar;
 
@@ -22,23 +23,23 @@ internal class SpecialCode
     // Secret code - to output the day and the week to the user. 
     private static readonly string _code = "52-26-41-63-75-27";
     public static string Code => _code;
-    public static List<string> AllMonths = new List<string>() {"January", "February", "March", "April", "May", "June",
-        "July", "August", "September", "October", "November", "December"};
+    public static List<string> AllMonths = new List<string>() {"january", "february", "march", "april", "may", "june",
+        "july", "august", "september", "october", "november", "december"};
 
     private static readonly Dictionary<string, int> MonthsDate = new Dictionary<string, int>()
     {
-        { "January", 31 },
-        { "February", 28 }, // 2025 is not a leap year, so February has 28 days
-        { "March", 31 },
-        { "April", 30 },
-        { "May", 31 },
-        { "June", 30 },
-        { "July", 31 },
-        { "August", 31 },
-        { "September", 30 },
-        { "October", 31 },
-        { "November", 30 },
-        { "December", 31 }
+        { "january", 31 },
+        { "february", 28 }, // 2025 is not a leap year, so February has 28 days
+        { "march", 31 },
+        { "april", 30 },
+        { "may", 31 },
+        { "june", 30 },
+        { "july", 31 },
+        { "august", 31 },
+        { "september", 30 },
+        { "october", 31 },
+        { "november", 30 },
+        { "december", 31 }
     };
     private static readonly Dictionary<string, int> MonthCode = new Dictionary<string, int>()
     {
@@ -55,8 +56,22 @@ internal class SpecialCode
         { "November", 2 },
         { "December", 7 }
     };
-        
+
+    public static bool ValidateMonth(string month)
+    {
+        bool monthExists = AllMonths.Contains(month) ? true : false;
+        return monthExists;
     }
+    public static bool ValidateDate(string month, int day)
+    {
+        bool dateExists = false;
+        // To complete the function, retrieve the value of a final day from the dictionary by the key month
+        // Then check if given date is within the range of 1->final day
+        // If so, then date is correct, if not, then date is wrong. Output the bool value 
+
+        return dateExists;
+    }
+}
 
 
 class Program
@@ -64,10 +79,10 @@ class Program
     static void Main()
     {
         string username;
-        
+
         Console.WriteLine("Hi. How can I call you?");
         username = Console.ReadLine();
-        Console.WriteLine($"Welcome to the Calendarium, {username}!\n" +
+        Console.WriteLine($"\nWelcome to the Calendarium, {username}!\n" +
                           $"\tThis program tells you:\n" +
                           $"* Any special events on the day you choose\n" +
                           $"* The date and week of the day you choose\n");
@@ -77,6 +92,10 @@ class Program
         {
             Console.WriteLine("What date are you interested in? Please enter a month (e.g. april): ");
             string month = Console.ReadLine().ToLower();
+
+            Console.WriteLine(SpecialCode.ValidateMonth(month));
+            bool ValidatedMonth = SpecialCode.ValidateMonth(month);
+
             Console.WriteLine("What date are you interested in? Please enter day number (e.g. 3, 18, 29): ");
             int day = Convert.ToInt16(Console.ReadLine().ToLower());
         }
