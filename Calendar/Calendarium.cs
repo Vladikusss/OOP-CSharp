@@ -1,6 +1,6 @@
 /*
  * Created by Vladdy | 17.02.2025
- * Last Updated: 20.02.2025
+ * Last Updated: 21.02.2025
  * Program: Calendar - outputs the day of the week and the event on that date without using external libraries
  * Version: 1.0
  * Status: In Progress
@@ -64,10 +64,16 @@ internal class SpecialCode
     }
     public static bool ValidateDate(string month, int day)
     {
-        bool dateExists = false;
-        // To complete the function, retrieve the value of a final day from the dictionary by the key month
-        // Then check if given date is within the range of 1->final day
-        // If so, then date is correct, if not, then date is wrong. Output the bool value 
+        bool dateExists;
+        
+        if (day >= 1 && day <= MonthsDate[month])
+        {
+            dateExists = true;
+        }
+        else
+        {
+            dateExists = false;
+        }
 
         return dateExists;
     }
@@ -98,6 +104,9 @@ class Program
 
             Console.WriteLine("What date are you interested in? Please enter day number (e.g. 3, 18, 29): ");
             int day = Convert.ToInt16(Console.ReadLine().ToLower());
+            
+            bool ValidateDay = SpecialCode.ValidateDate(month, day);
+            Console.WriteLine(ValidateDay);
         }
     }
 }
