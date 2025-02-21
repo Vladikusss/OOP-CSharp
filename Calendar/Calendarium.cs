@@ -20,12 +20,13 @@ internal class Event
 
 internal class SpecialCode
 {
+    // More about secrte code: https://www.braingle.com/mind/436/memorizing-the-calendar-ii.html
     // Secret code - to output the day and the week to the user. 
     private static readonly string _code = "52-26-41-63-75-27";
     public static string Code => _code;
     public static List<string> AllMonths = new List<string>() {"january", "february", "march", "april", "may", "june",
         "july", "august", "september", "october", "november", "december"};
-    public static List<string> WeekDays = new List<string>() {"monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"};
+    public static List<string> WeekDays = new List<string>() {"sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday",};
 
     private static readonly Dictionary<string, int> MonthsDate = new Dictionary<string, int>()
     {
@@ -91,8 +92,16 @@ internal class SpecialCode
         Console.WriteLine($"\nThe first sunday of {month} is on {MonthCode[month]}.\n" +
                           $"The information you entered: {month} / {day}\n" +
                           $"The date difference is {DateDifference}\n" +
-                          $"This is {NumberOfWeeks} weeks and {DaysLeft} days in total\n" +
-                          $"{day} of {month} falls on {WeekDays[DaysLeft]}\n");
+                          $"This is {NumberOfWeeks} weeks and {DaysLeft} days in total\n");
+        if (MonthCode[month] > DateDifference)
+        {
+            Console.WriteLine($"{day} of {month} falls on {WeekDays[^DaysLeft]}\n");
+        }
+        else
+        {
+            Console.WriteLine($"{day} of {month} falls on {WeekDays[DaysLeft]}\n");
+        }
+                          
     }
     
 }
