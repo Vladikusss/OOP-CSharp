@@ -25,6 +25,7 @@ internal class SpecialCode
     public static string Code => _code;
     public static List<string> AllMonths = new List<string>() {"january", "february", "march", "april", "may", "june",
         "july", "august", "september", "october", "november", "december"};
+    public static List<string> WeekDays = new List<string>() {"monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"};
 
     private static readonly Dictionary<string, int> MonthsDate = new Dictionary<string, int>()
     {
@@ -43,18 +44,18 @@ internal class SpecialCode
     };
     private static readonly Dictionary<string, int> MonthCode = new Dictionary<string, int>()
     {
-        { "January", 5 },
-        { "February", 2 },
-        { "March", 2 },
-        { "April", 6 },
-        { "May", 4 },
-        { "June", 1 },
-        { "July", 6 },
-        { "August", 3 },
-        { "September", 7 },
-        { "October", 5 },
-        { "November", 2 },
-        { "December", 7 }
+        { "january", 5 },
+        { "february", 2 },
+        { "march", 2 },
+        { "april", 6 },
+        { "may", 4 },
+        { "june", 1 },
+        { "july", 6 },
+        { "august", 3 },
+        { "september", 7 },
+        { "october", 5 },
+        { "november", 2 },
+        { "december", 7 }
     };
 
     public static bool ValidateMonth(string month)
@@ -77,6 +78,23 @@ internal class SpecialCode
 
         return dateExists;
     }
+
+    public static void DayOfTheWeek(string month, int day)
+    {
+        // Date difference between 2 days:
+        int DateDifference = Math.Abs(day - MonthCode[month]); 
+        // Week difference between 2 days:
+        int NumberOfWeeks = DateDifference / 7;
+        // Number of days that don't form a week:
+        int DaysLeft = DateDifference % 7;
+
+        Console.WriteLine($"\nThe first sunday of {month} is on {MonthCode[month]}.\n" +
+                          $"The information you entered: {month} / {day}\n" +
+                          $"The date difference is {DateDifference}\n" +
+                          $"This is {NumberOfWeeks} weeks and {DaysLeft} days in total\n" +
+                          $"{day} of {month} falls on {WeekDays[DaysLeft]}\n");
+    }
+    
 }
 
 
@@ -84,7 +102,13 @@ class Program
 {
     static void Main()
     {
-        string username;
+        string username; // User-defined nickname
+        string month; // Month user is interested in
+        string day; // String - Date user is interested in 
+        int dayInt; // Integer - Date user is interested in 
+        bool ValidatedMonth; // Validation for month
+        bool ValidatedDate; // Validation for date
+        
 
         Console.WriteLine("Hi. How can I call you?");
         username = Console.ReadLine();
@@ -92,21 +116,35 @@ class Program
                           $"\tThis program tells you:\n" +
                           $"* Any special events on the day you choose\n" +
                           $"* The date and week of the day you choose\n");
-
-        bool correctData = true;
-        while (correctData)
+        
+        while (true)
         {
             Console.WriteLine("What date are you interested in? Please enter a month (e.g. april): ");
-            string month = Console.ReadLine().ToLower();
+            month = Console.ReadLine().ToLower();
 
             Console.WriteLine(SpecialCode.ValidateMonth(month));
-            bool ValidatedMonth = SpecialCode.ValidateMonth(month);
+            ValidatedMonth = SpecialCode.ValidateMonth(month);
+            if (ValidatedMonth == false)
+            {
+                Console.WriteLine("\n[Error 1] --- Please only enter a valid month.\n");
+                continue;
+            }
 
             Console.WriteLine("What date are you interested in? Please enter day number (e.g. 3, 18, 29): ");
-            int day = Convert.ToInt16(Console.ReadLine().ToLower());
+            day = Console.ReadLine();
+
+            if (int.TryParse(day, out dayInt))
+            {
+                bool ValidatedDay = SpecialCode.ValidateDate(month, dayInt);
+                Console.WriteLine(ValidatedDay);
+            }
+            else
+            {
+                Console.WriteLine("\n[Error 2] --- Please only enter a valid day.\n");
+                continue;
+            }
             
-            bool ValidateDay = SpecialCode.ValidateDate(month, day);
-            Console.WriteLine(ValidateDay);
+            SpecialCode.DayOfTheWeek(month, dayInt);
         }
     }
 }
