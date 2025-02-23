@@ -1,12 +1,12 @@
- """
+"""
  /*
- * Created by Vladdy | 22.02.2025
- * Last Updated: 22.02.2025
+ * Created by Vladdy | 23.02.2025
+ * Last Updated: 23.02.2025
  * Program: API Testing - will be used as blueprint in c#
  * Version: 1.0
  * Status: In Progress
  */
- """
+"""
 
 import requests # Make requests to API
 from datetime import datetime # Format user's input

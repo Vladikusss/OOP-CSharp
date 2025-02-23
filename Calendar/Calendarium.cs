@@ -1,6 +1,6 @@
 /*
  * Created by Vladdy | 17.02.2025
- * Last Updated: 21.02.2025
+ * Last Updated: 22.02.2025
  * Program: Calendar - outputs the day of the week and the event on that date without using external libraries
  * Version: 1.0
  * Status: In Progress
