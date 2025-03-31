@@ -1,0 +1,4 @@
+Log file has been Cleared at 31/03/2025 01:13:06
+
+31/03/2025 01:13:06 -- INFO -- Client Started.
+31/03/2025 01:13:06 -- ERROR -- Something went wrong with GET request: NotFound
