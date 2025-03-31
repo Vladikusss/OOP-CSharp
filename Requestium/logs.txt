@@ -1,4 +1,11 @@
-Log file has been Cleared at 31/03/2025 01:13:06
+Log file has been Cleared at 31/03/2025 02:04:39
 
-31/03/2025 01:13:06 -- INFO -- Client Started.
-31/03/2025 01:13:06 -- ERROR -- Something went wrong with GET request: NotFound
+31/03/2025 02:04:39 -- INFO -- Google Search Function Started
+31/03/2025 02:04:39 -- INFO -- Search Started
+31/03/2025 02:04:39 -- INFO -- Searching for miyagi
+31/03/2025 02:04:39 -- INFO -- Google Search Completed Successfully.
+31/03/2025 02:04:39 -- INFO -- Parsing HTML result
+31/03/2025 02:04:39 -- INFO -- Parsing Completed
+31/03/2025 02:04:39 -- INFO -- Found 3 links
+31/03/2025 02:04:39 -- INFO -- Printing links
+31/03/2025 02:04:39 -- INFO -- Printed all available links

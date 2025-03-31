@@ -13,3 +13,6 @@
 /Users/vladdydaddy/College/OOP/Requestium/obj/Debug/net9.0/Requestium.pdb
 /Users/vladdydaddy/College/OOP/Requestium/obj/Debug/net9.0/Requestium.genruntimeconfig.cache
 /Users/vladdydaddy/College/OOP/Requestium/obj/Debug/net9.0/ref/Requestium.dll
+/Users/vladdydaddy/College/OOP/Requestium/bin/Debug/net9.0/HtmlAgilityPack.dll
+/Users/vladdydaddy/College/OOP/Requestium/obj/Debug/net9.0/Requestium.csproj.AssemblyReference.cache
+/Users/vladdydaddy/College/OOP/Requestium/obj/Debug/net9.0/Requestium.csproj.Up2Date

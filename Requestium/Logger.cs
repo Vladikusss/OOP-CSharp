@@ -11,7 +11,7 @@ internal class Logger
     
     static DateTime timestamp = DateTime.Now;
 
-    internal static void Log(string level, string message, string? extra = null)
+    internal static void Log(string level, string message, int? extra = null)
     {
         if (extra != null) {
             logMessage = $"{timestamp} -- {level} -- {message}: {extra}";

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RwkNPcMVSZk=",
+  "dgSpecHash": "5B+q0lQQZG8=",
   "success": true,
   "projectFilePath": "/Users/vladdydaddy/College/OOP/Requestium/Requestium.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/vladdydaddy/.nuget/packages/htmlagilitypack/1.12.0/htmlagilitypack.1.12.0.nupkg.sha512"
+  ],
   "logs": []
 }
