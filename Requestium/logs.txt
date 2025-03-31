@@ -1,11 +1,15 @@
-Log file has been Cleared at 31/03/2025 02:04:39
+Log file has been Cleared at 31/03/2025 02:30:09
 
-31/03/2025 02:04:39 -- INFO -- Google Search Function Started
-31/03/2025 02:04:39 -- INFO -- Search Started
-31/03/2025 02:04:39 -- INFO -- Searching for miyagi
-31/03/2025 02:04:39 -- INFO -- Google Search Completed Successfully.
-31/03/2025 02:04:39 -- INFO -- Parsing HTML result
-31/03/2025 02:04:39 -- INFO -- Parsing Completed
-31/03/2025 02:04:39 -- INFO -- Found 3 links
-31/03/2025 02:04:39 -- INFO -- Printing links
-31/03/2025 02:04:39 -- INFO -- Printed all available links
+31/03/2025 02:30:09 -- INFO -- Google Search Function Started
+31/03/2025 02:30:09 -- INFO -- Search Started
+31/03/2025 02:30:09 -- INFO -- Searching for naruto
+31/03/2025 02:30:09 -- INFO -- Google Search Completed Successfully.
+31/03/2025 02:30:09 -- INFO -- Parsing HTML result
+31/03/2025 02:30:09 -- INFO -- Parsing Completed
+31/03/2025 02:30:09 -- INFO -- Found 3 links
+31/03/2025 02:30:09 -- INFO -- Printing links
+31/03/2025 02:30:09 -- INFO -- Printed all available result links
+31/03/2025 02:30:09 -- DEBUG -- Trying My Best...............
+31/03/2025 02:30:09 -- INFO -- Printed all available result links
+31/03/2025 02:30:09 -- INFO -- Printed all available result links
+31/03/2025 02:30:09 -- INFO -- Printed all available links

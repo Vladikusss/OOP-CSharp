@@ -2,7 +2,7 @@
  * Created by Vladdy | 31.03.2025
  * Last Updated: 31.03.2025
  * Program: Simple requests practice program
- * Version: 1.1
+ * Version: 1.3333333333 | Bugged Version | Previous one works
  * Status: In Progress
  * Can Be Improved: Yes
 */
@@ -59,12 +59,36 @@ internal class Program
                     {
                         string href = link.GetAttributeValue("href", string.Empty);
                         // If it's a relative URL, prepend the base URL
-                        if (!href.StartsWith("http"))
+                        
+                        if (href.Contains("/search?q="))
                         {
-                            href = "https://www.google.com" + href;
-                        }
+                            string actualUrl = href.Split("/search?q=")[1].Split("&")[0]; // Extract the actual URL
+                            
+                            actualUrl = "https://www.google.com/search?q=" + searchQuery;
+                                
+                            
+                            
+                            HtmlDocument webDocObj2 = new HtmlDocument();
+                            webDocObj2.LoadHtml(actualUrl);
+                            Logger.Log("DEBUG", "Trying My Best...............");
+                
+                            var links2 = webDocObj2.DocumentNode.SelectNodes("//a[@href]");
+                            
+                            Console.WriteLine("Found the following links:");
+                            foreach (HtmlNode link2 in links)
+                            {
+                                string href2 = link2.GetAttributeValue("href", string.Empty);
+                                // If it's a relative URL, prepend the base URL
+                                Console.WriteLine($"{href2}");
+                            }
 
-                        Console.WriteLine($"-- {href}");
+
+
+
+
+                            Console.WriteLine($"-- {actualUrl}");
+                        }
+                        Logger.Log("INFO", $"Printed all available result links");
                         
                     }
                     Logger.Log("INFO", $"Printed all available links");

@@ -1,10 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "5B+q0lQQZG8=",
+  "dgSpecHash": "6SXV2ekkk/0=",
   "success": true,
   "projectFilePath": "/Users/vladdydaddy/College/OOP/Requestium/Requestium.csproj",
   "expectedPackageFiles": [
-    "/Users/vladdydaddy/.nuget/packages/htmlagilitypack/1.12.0/htmlagilitypack.1.12.0.nupkg.sha512"
+    "/Users/vladdydaddy/.nuget/packages/htmlagilitypack/1.12.0/htmlagilitypack.1.12.0.nupkg.sha512",
+    "/Users/vladdydaddy/.nuget/packages/microsoft.bcl.asyncinterfaces/6.0.0/microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "/Users/vladdydaddy/.nuget/packages/microsoft.playwright/1.51.0/microsoft.playwright.1.51.0.nupkg.sha512",
+    "/Users/vladdydaddy/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "/Users/vladdydaddy/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/vladdydaddy/.nuget/packages/system.text.encodings.web/6.0.0/system.text.encodings.web.6.0.0.nupkg.sha512",
+    "/Users/vladdydaddy/.nuget/packages/system.text.json/6.0.10/system.text.json.6.0.10.nupkg.sha512"
   ],
   "logs": []
 }

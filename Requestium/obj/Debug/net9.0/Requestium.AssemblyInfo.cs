@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Requestium")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09eb1e716a5312b26d67563f7b0e037e01fb8a4f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4df8db12178d7817888b4afaa40e47dfe4fe8862")]
 [assembly: System.Reflection.AssemblyProductAttribute("Requestium")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Requestium")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
